@@ -5,10 +5,10 @@ int main()
     char op;
     printf("Enter first number: ");
     scanf("%d", &a);
-    printf("Enter operator (+, -, *, /, %%): ");
-    scanf(" %c", &op);
     printf("Enter second number: ");
     scanf("%d", &b);
+    printf("Enter operator (+, -, *, /, %%): ");
+    scanf(" %c", &op);
     switch(op)
     {
         case '+':
