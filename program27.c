@@ -2,11 +2,12 @@
 int main()
 {
  int n, i, sum = 0;
+printf("Enter the number:");
  scanf("%d", &n);
-for(i = 1; i <= 2 * n; i = i + 2)
-{
-sum = sum + i;
-}
-printf("%d", sum);
-return 0;
+ for(i = 1; i <= n; i++)
+ {
+  sum = sum + (2 * i - 1);
+ }
+  printf("%d", sum);
+  return 0;
 }
